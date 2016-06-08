@@ -2,6 +2,11 @@
 
 (Based on the readmes at [raix:push](https://github.com/raix/push/blob/fix-device-dependency-deprecate-json-format/README.md))
 
+'Quick' config of raix:push for android and iOS. This package sets up some sensible server and client code, and allows
+you to configure it using (overrideable) ```settings.json```.
+
+### Instructions
+
 1. Ensure you have [fastlane tools] installed.
 
    [fastlane tools]:https://github.com/fastlane/fastlane
