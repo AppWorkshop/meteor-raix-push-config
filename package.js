@@ -15,9 +15,9 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use([
     'standard-app-packages', 
-    "appworkshop:settings-override-with-db", 
+    "appworkshop:settings-override-with-db@1.0.2",
     "raix:push@3.0.3-rc.5",
-    "alanning:roles"
+    "alanning:roles@1.2.15"
   ], ['client', 'server']);
   api.imply([
     'raix:push',
