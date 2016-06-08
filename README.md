@@ -5,6 +5,8 @@
 'Quick' config of raix:push for android and iOS. This package sets up some sensible server and client code, and allows
 you to configure it using (overrideable) ```settings.json```.
 
+It also automatically selects your development or production pem/certs based on the NODE_ENV environment setting.
+
 ### Instructions
 
 1. Ensure you have [fastlane tools] installed.
