@@ -1,6 +1,6 @@
 Package.describe({
   name: 'appworkshop:raix-push-config',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Configure raix:push with sensible defaults for both client and server',
   // URL to the Git repository containing the source code for this package.
@@ -11,16 +11,16 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.3.2.4');
+  api.versionsFrom('1.4.1.1');
   api.use('ecmascript');
   api.use([
     'standard-app-packages', 
-    "appworkshop:settings-override-with-db@1.0.2",
-    "raix:push@3.0.3-rc.5",
+    "appworkshop:settings-override-with-db@1.0.5",
+    "appworkshop:push@3.0.3-rc.8",
     "alanning:roles@1.2.15"
   ], ['client', 'server']);
   api.imply([
-    'raix:push',
+    'appworkshop:push@3.0.3-rc.8',
     'alanning:roles'
   ],['client','server']); // let other packages use Push.
 
