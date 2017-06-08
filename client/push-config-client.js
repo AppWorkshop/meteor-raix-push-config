@@ -7,15 +7,18 @@ Meteor.startup(function () {
       badge: GetMeteorSettingsValue('public.juto.pushclient.badge'),
       alert: GetMeteorSettingsValue('public.juto.pushclient.alert'),
       vibrate: GetMeteorSettingsValue('public.juto.pushclient.vibrate'),
-      clearNotifications: GetMeteorSettingsValue('public.juto.pushclient.clearNotifications')
-      
+      clearNotifications: GetMeteorSettingsValue('public.juto.pushclient.clearNotifications'),
+      clearBadge: GetMeteorSettingsValue('public.juto.pushclient.clearBadge'),
+      forceShow: GetMeteorSettingsValue('public.juto.pushclient.forceShow')
+
       // icon: '',
       // iconColor: ''
     },
     ios: {
       sound: GetMeteorSettingsValue('public.juto.pushclient.sound'),
       badge: GetMeteorSettingsValue('public.juto.pushclient.badge'),
-      alert: GetMeteorSettingsValue('public.juto.pushclient.alert')
+      alert: GetMeteorSettingsValue('public.juto.pushclient.alert'),
+      clearBadge: GetMeteorSettingsValue('public.juto.pushclient.clearBadge')
     }
   });
 });

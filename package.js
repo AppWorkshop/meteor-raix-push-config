@@ -1,6 +1,6 @@
 Package.describe({
   name: 'appworkshop:raix-push-config',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Configure raix:push with sensible defaults for both client and server',
   // URL to the Git repository containing the source code for this package.

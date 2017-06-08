@@ -107,8 +107,10 @@ It also automatically selects your development or production pem/certs based on 
             "badge": true,
             "alert": true,
             "vibrate": true,
-            "keepNotifications": true,
-            "clearNotifications": true
+            "keepNotifications": false,
+            "clearNotifications": true,
+            "clearBadge": true,
+            "forceShow": true
           }
           ...
         },
